@@ -4,6 +4,8 @@ services:
     image: grafana/loki:latest
     ports:
       - 3100:3100
+    volumes:
+      - ./loki-config.yml:/etc/loki/loki-config.yaml
   promtail:
     image: grafana/promtail:latest
     volumes:
