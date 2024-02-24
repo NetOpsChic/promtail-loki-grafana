@@ -1,7 +1,7 @@
 
 ## Monitoring Stack: Promtail, Loki and Grafana
 
-A simple implmenetation of Promtail, Loki an d rafana stack using Docker-Compose on MacOs
+A simple implmenetation of Promtail, Loki and Grafana stack using Docker-Compose on MacOs
 
 
 <p float="center">
