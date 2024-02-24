@@ -1,7 +1,7 @@
 
-## Monitoring Stack: Node-exporter, Prometheus and Grafana
+## Monitoring Stack: Promtail, Loki and Grafana
 
-A simple implmenetation of Node exporter, Prometheus and Grafana stack using Docker-Compose on MacOs
+A simple implmenetation of Promtail, Loki an d rafana stack using Docker-Compose on MacOs
 
 
 <p float="center">
