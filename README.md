@@ -5,9 +5,7 @@ A simple implmenetation of Promtail, Loki and Grafana stack using Docker-Compose
 
 
 <p float="center">
-  <img src="img/loki.png" width="200">
-  <img src="img/grafna.jpeg" width="200">
-  <img src="img/docker.jpeg" height = "180" width="200">
+  <img src="img/final.png" width="600">
 </p>
 
 
