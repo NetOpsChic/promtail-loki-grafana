@@ -1,0 +1,24 @@
+version: '3.7'
+services:
+  loki:
+    image: grafana/loki:latest
+    ports:
+      - 3100:3100
+  promtail:
+    image: grafana/promtail:latest
+    volumes:
+      - ./promtail-config.yml:/etc/promtail/promtail-config.yaml
+  prometheus:
+    image: prom/prometheus:v2.46.0
+    ports:
+      - 9090:9090
+    volumes:
+      - ./prometheus.yml:/etc/prometheus/prometheus.yml
+  node-exporter:
+    image: quay.io/prometheus/node-exporter:latest
+    ports:
+      - 9100:9100
+  grafana:
+    image: grafana/grafana
+    ports:
+      - 3000:3000
